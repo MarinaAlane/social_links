@@ -1,6 +1,10 @@
 body {
     background-color: #141414;
     color: #FBF9F9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .location {
@@ -24,4 +28,13 @@ body {
   display: flex;
   flex-direction: column;
   width: 50%;
+}
+
+.attribution {
+  font-size: 11px;
+  padding-top: 50px;
+
+  a{
+    color: #4054a5;
+  }
 }
