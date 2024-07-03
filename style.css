@@ -1,5 +1,5 @@
 body {
-    background-color: #141414;
+    background-color: #000008;
     color: #FBF9F9;
     display: flex;
     justify-content: center;
@@ -11,11 +11,11 @@ body {
   color: #cbf144;
   font-weight: 700;
   font-size: small;
-  background-color: #333333;
+  background-color: #1f1f1f;
 }
 
 .main {
-  background-color: #333333;
+  background-color: #1f1f1f;
   width: 30%;
   align-items: center;
   flex-direction: column;
@@ -28,6 +28,16 @@ body {
   display: flex;
   flex-direction: column;
   width: 50%;
+}
+
+.button {
+  background-color: #333333 ;
+  padding: 10px;
+  margin: 5px;
+  color: #FBF9F9;
+  font-weight: 700;
+  border-radius: 5px;
+  border-color: transparent;
 }
 
 .attribution {
