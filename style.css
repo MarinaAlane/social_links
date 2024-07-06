@@ -1,17 +1,32 @@
 body {
-    background-color: #000008;
-    color: #FBF9F9;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  background-color: #000008;
+  color: #FBF9F9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    border-radius: 50%;
+  }
 }
+
+div{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+ h2{
+  margin-bottom: 0;
+ }
 
 .location {
   color: #cbf144;
   font-weight: 700;
   font-size: small;
   background-color: #1f1f1f;
+  margin: 0;
 }
 
 .main {
@@ -24,7 +39,7 @@ body {
   padding-bottom: 20px;
 
   @media (max-width: 600px) {
-  width: 80%;
+    width: 85%;
   }
 }
 
@@ -32,6 +47,10 @@ body {
   display: flex;
   flex-direction: column;
   width: 50%;
+
+  @media (max-width: 600px) {
+    width: 85%;
+  }
 }
 
 .button {
@@ -44,6 +63,10 @@ body {
   border-color: transparent;
 }
 
+.button:hover {
+  background-color: #cbf144;
+  color:#000008
+}
 .attribution {
   font-size: 11px;
   padding-top: 50px;
